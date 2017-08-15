@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.ab {
+  position: absolute;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  background-color: #3e88f1;
+  position: relative;
+}
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide .index_pageup {
+  width: 12%;
+  bottom: 6%;
+  left: 44%;
+}
+.swiper-slide:nth-child(1) {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide:nth-child(1) .index_Building {
+  bottom: 0;
+  left: 0;
+}
+.swiper-slide:nth-child(1) .index_text {
+  width: 60%;
+  top: 8%;
+  left: 20%;
+}
+.swiper-slide:nth-child(1) .index_flower {
+  width: 80%;
+  top: 10%;
+  left: 10%;
+}
+.swiper-slide:nth-child(1) .index_flower img:nth-child(1) {
+  width: 20%;
+}
+.swiper-slide:nth-child(1) .index_flower img:nth-child(2) {
+  position: absolute;
+  right: 16%;
+  top: 82%;
+  width: 18%;
+}
+.swiper-slide:nth-child(1) .index_cloud,
+.swiper-slide:nth-child(1) .index_star {
+  width: 90%;
+  top: 6%;
+  left: 4%;
+}
+.swiper-slide:nth-child(1) .index_ele {
+  width: 100%;
+  top: 9%;
+  left: 0;
+}
+.swiper-slide:nth-child(1) .index_feiji {
+  width: 90%;
+  left: 5%;
+  top: 34%;
+}
+.swiper-slide:nth-child(2) {
+  background: #000000;
+  overflow: hidden;
+}
+.swiper-slide:nth-child(2) .two_bg {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.swiper-slide:nth-child(2) .font1 {
+  width: 54%;
+  left: 22%;
+  top: 40%;
+}
+.swiper-slide:nth-child(2) .font2 {
+  width: 54%;
+  left: 22%;
+  top: 53%;
+}
+.swiper-slide:nth-child(2) .Starrun {
+  width: 100%;
+}
+.swiper-slide:nth-child(3) {
+  background: #000000;
+}
+.swiper-slide:nth-child(3) .firstnone {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide:nth-child(3) .firstnone .early1 {
+  bottom: 0;
+}
+.swiper-slide:nth-child(3) .firstnone .early2 {
+  left: 0;
+  top: 6%;
+  width: 28%;
+}
+.swiper-slide:nth-child(3) .twonone {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide:nth-child(3) .twonone .teo {
+  bottom: 0;
+}
+.swiper-slide:nth-child(3) .twonone .inbus {
+  width: 80%;
+  bottom: 40%;
+  left: 0;
+}
+.swiper-slide:nth-child(3) .twonone .inbus .bus {
+  width: 100%;
+  left: 0;
+}
+.swiper-slide:nth-child(3) .peo1 {
+  width: 35%;
+  right: -3%;
+  bottom: 10%;
+}
+.swiper-slide:nth-child(3) .lastbus {
+  left: 0;
+  top: 6%;
+  width: 36%;
+}
+#Btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(720deg);
+            transform: rotateZ(720deg);
+  }
+}
+@keyframes Rotate {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(720deg);
+            transform: rotateZ(720deg);
+  }
+}
+.Rotate {
+  -webkit-animation-name: Rotate;
+          animation-name: Rotate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
